@@ -1,4 +1,4 @@
-FROM nginx:1.13.8-alpine
+FROM nginx:1.16.0-alpine
 LABEL maintainer "palydingnow@gmail.com"
 
 COPY nginx.conf /etc/nginx/nginx.conf
